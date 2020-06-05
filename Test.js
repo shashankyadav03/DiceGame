@@ -4,3 +4,5 @@ var lastName = 'Smith';
 var age = 28;
 var fullAge = true;
 console.log(age);
+job = 'Teacher';
+console.log(job);
