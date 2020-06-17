@@ -1,0 +1,16 @@
+html{
+    background-color: cyan;
+}
+.check{
+    color:black;
+}
+.whole{
+    font-style: italic;
+}
+.main{
+    max-width: 25%;
+    padding: 30px;
+    background-origin: padding-box;
+    background-color: bisque;
+    float: left;
+}
