@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    height: 100vh;
+    color: #000;
+}
+h1{
+    text-align: center;
+}
+.prog {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 280px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+}
+#Progress_Status { 
+    width: 25%; 
+    background-color: #ddd; 
+  } 
+    
+  #myprogressBar { 
+    position: absolute;
+    left: 30%;
+    top: 250px;
+    padding: 5px;
+    width: 1%; 
+    height: 10px; 
+    background-color: #4CAF50; 
+    text-align: center; 
+    line-height: 32px; 
+    color: black; 
+  } 
+button {
+    position: absolute;
+    width: 200px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    outline: 10px;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover { font-weight: 600; }
+/* button:hover i { margin-right: 20px; } */
+
+
+
+.final-score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 300px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+}
+
+.final-score:focus { outline: none; }
